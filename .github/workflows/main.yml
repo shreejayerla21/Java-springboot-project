@@ -94,7 +94,7 @@ jobs:
           script: |
             set -e
             LOG_DIR=/var/log/app
-            mkdir -p $LOG_DIR
+            sudo mkdir -p $LOG_DIR
             sudo chown ec2-user:ec2-user $LOG_DIR
             cd /home/ec2-user/app/Java-springboot-project/backend/target
             nohup env \
