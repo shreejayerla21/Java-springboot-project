@@ -1,4 +1,4 @@
-# CODEOWNERS — assigns reviewers for specific paths.
+# CODEOWNERS — assigns reviewers for specific path
 # Top contributors requested as owners so PRs touching these areas auto-request review
 
 # Owners for workspace/editor configuration and CI
